@@ -1,0 +1,29 @@
+---
+layout: default
+title: Blog
+---
+<h1 style="color: #ED1A3B;">Technical Documentation</h1>
+<div>
+  <input type="text" class="search-box" placeholder="Search for articles, training, and work product samples...">
+  <button class="search-button" icon="fa-search" type="submit" aria-label="Search">
+    <span class="fa fa-search"></span>
+    <span> Search </span>
+  </button>
+</div>
+<h1 style="color: #ED1A3B;">Product Directory</h1>
+<ul class="has-three-text-columns-list-items">
+  {% for item in site.pages %}
+  {%if item.name == 'introduction.md' %}
+  <li> <a href="{{ item.url }}" style="color: rgb(64,64,64);"> {{ item.product }}</a> </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<!--
+{% for post in site.posts %}
+<li>
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {{ post.excerpt }}
+</li>
+{% endfor %}
+-->

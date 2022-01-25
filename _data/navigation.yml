@@ -1,8 +1,6 @@
-- name: Home
-  link: /
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Staff
-  link: /staff.html
+- name: Documentation
+  link: /documentation.html
+- name: Contribute
+  link: /contribute.html
+- name: FAQs
+  link: /questions.html

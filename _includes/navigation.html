@@ -1,5 +1,10 @@
-  <div class="topnav">
-    {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}class="topnav"{% endif %}>{{ item.name }}</a>
-    {% endfor %}
-  </div>
+<div class="topnav" id="TopNav">
+  <a href="/" >
+    <i class="fa fa-book" ></i>  | Docs </a>
+  {% for item in site.data.navigation %}
+  <a href="{{ item.link }}" {% if page.url==item.link %} class="active" {% endif %} > {{ item.name }}</a>
+  {% endfor %}
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>

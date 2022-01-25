@@ -1,0 +1,80 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+  - title: Sidebar
+    product: Excel
+    folders:
+      - title:
+        output: pdf
+        type: frontmatter
+        folderitems:
+          - title:
+            url: /titlepage.html
+            output: pdf
+            type: frontmatter
+          - title:
+            url: /tocpage.html
+            output: pdf
+            type: frontmatter
+
+      - title: Get Started
+        output: web, pdf
+        folderitems:
+          - title: Get Started
+            url: 
+            output: web
+
+          - title: Recommended Default Settings
+            url: 
+            output: web, pdf
+
+          - title: Additional resources
+            url: 
+            output: web, pdf
+
+      - title: Excel Formatting
+        output: web, pdf
+        folderitems:
+          - title: Colors
+            url: 
+            output: web
+          - title: Numbers
+            url: 
+            output: web
+          - title: Settings
+            url: 
+            output: web
+
+      - title: Functions
+        output: web, pdf
+        folderitems:
+          - title: Basic Functions
+            url: 
+            output: web
+          - title: CUBE Functions
+            url: 
+            output: web
+          - title: Dynamic Array Functions
+            url: 
+            output: web
+
+      - title: Pivot Tables
+        output: web, pdf
+        folderitems:
+          - title: Introduction
+            url: 
+            output: web
+          - title: PivotTable sources
+            url: 
+            output: web
+          - title: PivotTable settings
+            url: 
+            output: web
+          - title: Pivot Field settings
+            url: 
+            output: web
+          - title: Pivot Chart introduction
+            url: 
+            output: web
+
+

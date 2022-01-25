@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="row">
+
+    <div class="navigation">
+        <h2>{{page.product | capitalize }} Guide</h2>
+        <input role="combobox" maxlength="100" aria-autocomplete="list" autocapitalize="off" autocomplete="off"
+            autocorrect="off" spellcheck="false" id="ax-0"
+            type="text" aria-expanded="false"
+            aria-owns="ax-1-listbox" aria-activedescendant="" placeholder="Filter by title">
+        {% for item in site.pages %}
+        {%if item.product == page.product %}
+        <li> <a href="{{ item.url }}" style="color: rgb(64,64,64);"> {{ item.name }}</a> </li>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="content" >
+        <h1 style=" color:red;">{{page.title}} </h1>
+        <p style="font-size: 75%;">Article - Jan 17, 2022 - 3 minutes to read </p>
+        <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}"
+            class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+        {{content}}
+    </div>
+    <div class="right">
+        <p>In this article:</p>
+        {% include toc.html html=content class="toc" h_min=1 h_max=2 %}
+    </div>
+</div>
