@@ -9,7 +9,7 @@ order: 1
 
 ## Cube Formula - What is Cube Formula? Examples
 
-The cube formula helps us to find the surface area, diagonals, and volume of a cube. The cube of a number directly reflects the volume of a cube having an edge length equal to the given number. A cube is a 3-D solid object with six square faces whose all the sides are of the same length. Let us learn about the cube formula with a few solved examples in the end. 
+The cube formula helps us to find the surface area, diagonals, and volume of a cube. The cube of a number directly reflects the volume of a cube having an edge length equal to the given number. A cube is a 3-D solid object with six square faces whose all the sides are of the same length. Let us learn about the cube formula with a few solved examples in the end. these are not what cubeformulas for excel are.
 
 ## What Is the Cube Formula?
 The cube is one of the five platonic solids and is also known as a regular hexahedron.
